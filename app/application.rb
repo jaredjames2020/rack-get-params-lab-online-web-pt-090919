@@ -19,7 +19,7 @@ class Application
     end
   
     if req.path.match(/cart/)
-      @@cart << @@item
+      @@cart << @@items
     end
 
     resp.finish
